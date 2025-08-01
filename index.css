@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.topbar {
+    position: sticky;
+    top: 0;
+    background-color: rgb(15, 15, 15);
+}
+.search{
+    width: 400px;
+    padding:8px ;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius:1px  ;
+}
+.search-size{
+    width: 400px;
+height: 25px;
+    border: 1px solid black;
+    border-radius: 100px ;
+      font-size: 16px;
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.inline{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+}
+.space{
+    justify-content: space-between;
+}
+.mic-circle{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50px;
+}
+.oval{
+    width:90px ;
+    height: 40px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 80px ;
+}
+.circle{
+     width:50px ;
+    height: 50px;
+    border: 1px solid rgb(255, 251, 251);
+    border-radius: 100px ;
+}
+
+.margin{
+    margin: 30px;
+}
+.long-oval{
+    width:500px ;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 100px ;
+    
+}
+.thumb-nail{
+  width: 400px;
+height: 200px;
+
+}
+
+
+.container{
+ display:grid;
+ grid-template-columns:1fr 1fr 1fr;
+ grid-gap:25px;
+ margin-bottom: 20px;
+ margin-left: 40px;
+}
+
+.item{
+
+object-fit: cover;
+display: flex;
+flex-direction: column;
+}
+
+p{
+    color: white;
+    text-align: left;
+}
+.circle-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+ 
+}
+
+
+.details {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+
+}
+.text-details {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-left: 10px;    
+  font-size: 15px;
+}
+
+.upper-center{
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+.text-color{
+    color: rgb(135,135,135);
+}
+
+.text-details3 {
+      
+  font-size: 12px;
+}
+img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.text-center{
+    text-align: center;
+    margin-top: 10px;
+}
+.text-center2{
+    text-align: center;
+    margin-top: 7px;
+    font-size: 30px;
+}
+.img-center{
+    margin:13px;
+}
+
+@media only screen and (max-width:600px)  {
+    .container{
+        display:grid;
+        grid-template-columns:1fr;
+        grid-gap:25px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+    }
+}
+
