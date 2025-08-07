@@ -141,7 +141,7 @@ img:hover{
    color: white; 
 }
 
-@media only screen and (max-width:200vh)  {
+@media only screen and (max-width:600px)  {
     .container{
         display:grid;
         grid-template-columns:1fr;
