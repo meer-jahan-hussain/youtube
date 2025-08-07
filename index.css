@@ -150,6 +150,11 @@ img:hover{
         margin-left: 40px;
         width: 430px;
     }
+    .thumb-nail{
+  width: 500px;
+height: 300px;
+
+}
     .icons {
     width: 20;
     height: 40px;
