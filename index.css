@@ -183,6 +183,7 @@ img:hover{
     height: 25px;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 80px ;
+    margin: -10px;
 }
 .text-center{
    text-align: center; 
