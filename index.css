@@ -59,13 +59,7 @@ height: 25px;
 .margin{
     margin: 30px;
 }
-.long-oval{
-    width:500px ;
-    height: 40px;
-    border: 1px solid black;
-    border-radius: 100px ;
-    
-}
+
 .thumb-nail{
   width: 400px;
 height: 200px;
@@ -143,6 +137,9 @@ img:hover{
 .img-center{
     margin:13px;
 }
+.youtube-h{
+   color: white; 
+}
 
 @media only screen and (max-width:600px)  {
     .container{
@@ -153,5 +150,54 @@ img:hover{
         margin-left: 40px;
         width: 430px;
     }
+    .icons {
+    width: 20;
+    height: 40px;
+    margin-right: 10px;
 }
-
+.youtube-h{
+   color: white; 
+   font-size: 20px;
+}
+   
+.search-size{
+    width: 50px;
+     height: 25px;
+    border: 1px solid black;
+    border-radius: 100px ;
+      font-size: 16px;
+}
+.mic-circle{
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50px;
+}
+.img-center{
+    margin:2px;
+   
+    
+}
+.oval{
+    width:50px ;
+    height: 25px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 80px ;
+}
+.text-center{
+   text-align: center; 
+    margin: 5px; 
+      font-size: 10px;  
+}
+.circle{
+     width:25px ;
+    height: 25px;
+    border: 1px solid rgb(255, 251, 251);
+    border-radius: 100px ;
+}
+.text-center2{
+    text-align: center;
+    margin: 5px;
+    font-size: 15px;
+}
+}
